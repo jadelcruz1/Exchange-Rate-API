@@ -23,7 +23,14 @@ public class Main {
         //List<HttpClient> consultas = new ArrayList<>();
 
 
-       System.out.println(" escolha a moeda. ");
+       System.out.println("Selecione  uma moeda: " +
+               "\n1 - USD(Dolar Americano) "
+               + "\n2 - BRL(Real Brasileiro)"
+               + "\n3 - GBP (Libra Esterlina)"
+               + "\n4 - CAD(Dolar Canadense) "
+               + "\n5 - ZAR(Rand - África do Sul)"
+               + "\n6 - CHF(Franco Suíço)"
+       );
        busca = leitura.nextLine();
 
 
